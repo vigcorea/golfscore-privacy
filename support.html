@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI골프스코어 고객지원</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Malgun Gothic", "Noto Sans KR", sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; line-height: 1.75;
+    color: #1f2a24; background: #f7f9f6; }
+  @media (prefers-color-scheme: dark) { body { background:#12160f; color:#e6ebe3; } a{color:#8fd39a;} }
+  h1 { font-size: 1.6rem; color: #1B5E3A; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 30px; border-left: 4px solid #1B5E3A; padding-left: 10px; }
+  h3 { font-size: 1rem; margin-top: 22px; margin-bottom: 4px; }
+  .meta { color: #6e7771; font-size: .92rem; margin-bottom: 20px; }
+  .box { background: #eaf3e1; border: 1px solid #c5deac; border-radius: 12px; padding: 14px 16px; }
+  @media (prefers-color-scheme: dark){ .box{ background:#1c2a17; border-color:#33502a; } }
+  ul { padding-left: 22px; }
+  .q { color:#1B5E3A; font-weight: 700; }
+</style>
+</head>
+<body>
+  <h1>AI골프스코어 고객지원</h1>
+  <p class="meta">골프 스코어카드를 사진으로 찍으면 AI가 점수를 읽어 기록해 주는 앱입니다.</p>
+
+  <div class="box">
+    <strong>문의하기</strong> — <a href="mailto:vigcorea@gmail.com">vigcorea@gmail.com</a><br>
+    앱 이름과 함께 증상을 적어 보내주시면 확인 후 답변드립니다. 보통 1~2 영업일 안에 회신합니다.
+  </div>
+
+  <h2>자주 묻는 질문</h2>
+
+  <h3 class="q">Q. 시작하려면 무엇부터 해야 하나요?</h3>
+  <p>설정 화면에서 ① 본인 이름을 저장하고 ② 무료 AI 키를 등록하시면 됩니다.
+  본인 이름은 승·무·패 계산의 기준이 되고, AI 키는 점수 자동 인식에 쓰입니다.
+  설정 화면의 [무료 키 발급받기]를 누르면 실제 화면 그림과 함께 단계별 안내가 나옵니다.</p>
+
+  <h3 class="q">Q. AI 키를 왜 직접 발급받아야 하나요?</h3>
+  <p>이 앱은 개발자 서버를 두지 않습니다. 사용자가 구글에서 무료로 받은 본인 키로 직접 인식을 요청하는 구조라,
+  앱 안에서 결제하거나 구독할 것이 없고 사용자의 사진이 개발자에게 전달되지도 않습니다.</p>
+
+  <h3 class="q">Q. "무료 한도가 잠겨 있다"며 인식이 안 됩니다.</h3>
+  <p>키가 틀린 게 아닙니다. 구글 계정에 결제 수단이 연결되지 않으면 구글이 무료 한도를 잠급니다.
+  <a href="https://console.cloud.google.com/billing">구글 클라우드 결제 페이지</a>에서 카드를 등록하면 무료 한도가 열립니다.
+  무료 사용 범위 안에서는 요금이 청구되지 않습니다. 앱 안의 [결제 카드 등록하러 가기] 버튼도 이 구글 페이지로 연결되며,
+  개발자에게 지불하는 금액은 없습니다.</p>
+
+  <h3 class="q">Q. 점수를 잘못 읽었어요.</h3>
+  <p>표에서 숫자를 직접 누르면 그 자리에서 고칠 수 있습니다. 이름도 눌러서 수정됩니다.
+  인식률을 높이려면 사진앱에서 스코어 표 부분만 잘라낸 뒤 [갤러리]로 불러오시는 것을 권합니다.</p>
+
+  <h3 class="q">Q. AI 인식 없이 쓸 수 있나요?</h3>
+  <p>가능합니다. 점수를 직접 입력해도 기록·전적·핸디캡·검색·공유 기능을 모두 사용할 수 있습니다.</p>
+
+  <h3 class="q">Q. 휴대폰을 바꾸면 기록이 사라지나요?</h3>
+  <p>모든 기록은 기기 안에만 저장되므로 앱을 삭제하면 함께 지워집니다.
+  기기를 바꾸기 전에 설정 → [지금 바로 백업 파일 저장·공유]로 CSV 파일을 저장해 두시고,
+  새 기기에서 설정 → [백업 파일(CSV) 가져오기]로 불러오시면 됩니다.</p>
+
+  <h3 class="q">Q. 내 사진과 기록은 어디에 저장되나요?</h3>
+  <p>사용자의 iPhone 안에만 저장됩니다. 점수 인식을 실행할 때만 해당 사진이 구글 Gemini로 전송됩니다.
+  자세한 내용은 <a href="ios.html">개인정보처리방침</a>을 확인해 주세요.</p>
+
+  <h2>관련 문서</h2>
+  <ul>
+    <li><a href="ios.html">개인정보처리방침 (iPhone 버전)</a></li>
+    <li><a href="index.html">개인정보처리방침 (Android 버전)</a></li>
+  </ul>
+
+  <h2>제작</h2>
+  <p>KAIROS D&amp;D Co.,Ltd · <a href="mailto:vigcorea@gmail.com">vigcorea@gmail.com</a></p>
+</body>
+</html>
