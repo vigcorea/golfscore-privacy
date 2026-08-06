@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>심플 PDF 개인정보처리방침</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Malgun Gothic", "Noto Sans KR", sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; line-height: 1.75;
+    color: #2a1f1f; background: #faf7f7; }
+  @media (prefers-color-scheme: dark) { body { background:#161011; color:#ece4e4; } a{color:#ff9b9b;} }
+  h1 { font-size: 1.6rem; color: #C62828; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 30px; border-left: 4px solid #C62828; padding-left: 10px; }
+  .meta { color: #7a6e6e; font-size: .92rem; margin-bottom: 20px; }
+  .box { background: #fbe6e6; border: 1px solid #f0c0c0; border-radius: 12px; padding: 14px 16px; }
+  @media (prefers-color-scheme: dark){ .box{ background:#2b1a1a; border-color:#5c3333; } }
+  code { background: rgba(120,120,120,.15); padding: 1px 6px; border-radius: 5px; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+  <h1>심플 PDF 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026년 8월 7일 · 앱: 심플 PDF (Android)</p>
+
+  <div class="box">
+    <strong>핵심 요약</strong> — 심플 PDF는 <strong>인터넷 접근 권한 자체가 없습니다.</strong>
+    어떤 정보도 외부로 보낼 수 없는 구조이며, 개발자는 서버를 운영하지 않습니다.
+    사용자가 연 문서와 관련된 모든 기록은 <strong>사용자의 휴대폰 안에만</strong> 남습니다.
+  </div>
+
+  <h2>1. 수집·저장하는 정보</h2>
+  <p>앱을 사용하면 다음 정보가 생성되며, 이는 모두 <strong>사용자 기기 내부에만</strong> 저장됩니다.</p>
+  <ul>
+    <li><strong>최근 본 문서 목록</strong> — 파일 이름, 파일 위치(주소), 전체 쪽수, 마지막으로 본 쪽,
+      마지막으로 연 시각</li>
+    <li><strong>문서 사본</strong> — 다른 앱에서 "열기"나 "공유하기"로 넘어온 PDF는 앱 내부 저장 공간에
+      복사됩니다. (자세한 이유는 3항)</li>
+  </ul>
+  <p>앱은 PDF의 <strong>내용을 읽어 분석하거나 별도로 기록하지 않습니다.</strong> 화면에 그려 보여 줄 뿐입니다.
+  위 정보는 개발자의 서버로 전송되지 않으며, 개발자는 이에 접근할 수 없습니다.</p>
+
+  <h2>2. 인터넷 전송 없음</h2>
+  <p>이 앱은 안드로이드의 <strong>인터넷 권한(<code>INTERNET</code>)을 선언하지 않습니다.</strong>
+  권한이 없으면 운영체제가 네트워크 통신 자체를 차단하므로, 앱이 정보를 외부로 보내는 것이
+  기술적으로 불가능합니다.</p>
+  <p>광고 SDK, 사용 통계·분석 도구, 오류 수집 도구를 일절 포함하지 않습니다.</p>
+
+  <h2>3. 문서 사본을 만드는 이유</h2>
+  <p>파일 관리자나 메신저에서 넘어온 PDF의 접근 권한은 <strong>그 순간에만 유효</strong>합니다.
+  앱을 껐다 켜면 같은 파일을 다시 열 수 없습니다. 그래서 "최근 본 문서"에서 이어보기가 가능하도록
+  해당 파일을 앱 내부 공간에 복사해 둡니다.</p>
+  <ul>
+    <li>이 사본은 <strong>앱 전용 영역</strong>에 저장되어 다른 앱이 읽을 수 없습니다.</li>
+    <li>사본이 총 200MB를 넘으면 오래된 것부터 자동으로 정리됩니다.</li>
+    <li>앱 안에서 직접 연 파일(파일 선택 화면 이용)은 복사하지 않고 원본 위치만 기억합니다.</li>
+  </ul>
+
+  <h2>4. 앱 권한</h2>
+  <p><strong>이 앱은 어떠한 권한도 요구하지 않습니다.</strong> 저장소(사진·파일) 접근 권한 팝업이
+  한 번도 뜨지 않습니다.</p>
+  <p>파일 열기는 안드로이드가 제공하는 문서 선택 화면을 통해 이루어지며, 이 방식은
+  <strong>사용자가 직접 고른 파일에만</strong> 접근이 허용됩니다. 앱이 기기의 다른 파일을
+  둘러볼 수 있는 권한은 없습니다.</p>
+
+  <h2>5. 제3자 제공</h2>
+  <p>개발자는 사용자 정보를 제3자에게 판매·제공하지 않습니다. 외부로 전송되는 정보 자체가 없으며,
+  정보를 주고받는 외부 서비스와 연동되어 있지 않습니다.</p>
+
+  <h2>6. 데이터 보관 및 삭제</h2>
+  <p>모든 데이터는 기기 내부에 저장되므로, <strong>앱을 삭제하면 관련 데이터도 함께 삭제</strong>됩니다.</p>
+  <ul>
+    <li>최근 목록의 항목을 길게 누르면 개별 삭제할 수 있습니다. 이때 <strong>원본 파일은 지워지지 않습니다.</strong></li>
+    <li>설정 → 애플리케이션 → 심플 PDF → 저장공간에서 캐시·데이터를 한번에 지울 수 있습니다.</li>
+  </ul>
+
+  <h2>7. 아동의 개인정보</h2>
+  <p>본 앱은 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+  <h2>8. 변경 고지</h2>
+  <p>본 방침이 변경될 경우 이 페이지를 통해 공지합니다.</p>
+
+  <h2>9. 문의처</h2>
+  <p>개인정보 관련 문의: <a href="mailto:vigcorea@gmail.com">vigcorea@gmail.com</a></p>
+</body>
+</html>
