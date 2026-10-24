@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Golf Score Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; line-height: 1.75;
+    color: #1f2a24; background: #f7f9f6; }
+  @media (prefers-color-scheme: dark) { body { background:#12160f; color:#e6ebe3; } a{color:#8fd39a;} }
+  h1 { font-size: 1.6rem; color: #1B5E3A; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 30px; border-left: 4px solid #1B5E3A; padding-left: 10px; }
+  .meta { color: #6e7771; font-size: .92rem; margin-bottom: 20px; }
+  .box { background: #eaf3e1; border: 1px solid #c5deac; border-radius: 12px; padding: 14px 16px; }
+  @media (prefers-color-scheme: dark){ .box{ background:#1c2a17; border-color:#33502a; } }
+  .langs { margin: 8px 0 24px; } .langs a { margin-right: 14px; }
+  hr { margin: 56px 0 24px; border: 0; border-top: 1px solid #c5deac; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<div class="langs"><a href="#en">English</a><a href="#ja">日本語</a></div>
+
+<section id="en" lang="en">
+  <h1>AI Golf Score Privacy Policy</h1>
+  <p class="meta">Effective: October 24, 2026 · App: AI Golf Score (Android, com.kairosdnd.golfscore.global) · Operator: KairosD&amp;D Co., Ltd. (Republic of Korea)</p>
+
+  <div class="box">
+    <strong>Summary</strong>
+    <ul>
+      <li>Your rounds (course name, date, scores), playing partners' names and scorecard photos are stored <strong>only on your phone</strong>.</li>
+      <li>In the free (Basic) mode, scorecard photos are sent <strong>through our scan server to Google's AI service</strong> only to read the scores.
+        We <strong>do not store photos or scan results</strong> on our server.</li>
+      <li>The app <strong>does not use your location</strong>. The golf course name is read from the scorecard.</li>
+      <li>The free mode shows <strong>Google AdMob ads</strong>, so Google receives device information such as the advertising ID.</li>
+    </ul>
+  </div>
+
+  <h2>1. Information we process</h2>
+  <ul>
+    <li><strong>Round records</strong> (course name, date, hole-by-hole scores), <strong>playing partners' names</strong> and head-to-head records — stored only on your phone.</li>
+    <li><strong>Scorecard photos</strong> — kept only on your phone so you can compare them with the result. You can delete them anytime in Settings &gt; Storage (records and scores remain).</li>
+    <li><strong>Settings</strong> such as your name and, if you choose "Fewer ads", the <strong>AI API key</strong> you enter — stored only on your phone.</li>
+    <li><strong>Install ID</strong> — a random number created by the app (not a hardware ID or phone number). It is used only to count the free scans per day; our server records only this number and the number of photos per day.</li>
+    <li><strong>Advertising information</strong> — Google AdMob processes the advertising ID, device and app information and approximate location based on IP address to show ads (section 5).</li>
+    <li><strong>Usage statistics</strong> — to improve the app, Google Firebase Analytics collects which screens are opened, whether a scan succeeded, how long it took and how many players were found, how many rounds were saved and the plan you use, together with an app instance ID, device type and approximate region (IP based).
+      <strong>Names, course names, scores and photos are never sent as statistics.</strong></li>
+  </ul>
+
+  <h2>2. AI scorecard reading</h2>
+  <ul>
+    <li><strong>Basic (free)</strong> — the scorecard photos, your and your partners' names (only to help the AI read names with the same spelling) and the install ID are sent to our <strong>scan server</strong> (NAVER Cloud, Republic of Korea). The server sends the photos to <strong>Google (Gemini)</strong>, receives the reading and returns it to the app.
+      Our server <strong>does not store photos, names or results</strong>; it keeps only the number of photos per install ID per day and overall usage totals. We use Google's paid tier, under which Google does not use this data to improve its products.</li>
+    <li><strong>Fewer ads (your own AI key)</strong> — your phone sends the photos and names directly to <strong>Google (Gemini)</strong> or <strong>Anthropic (Claude)</strong> using the key you entered. Our server is not involved, and the key stays on your phone.</li>
+  </ul>
+  <p>Processing by the AI services follows the privacy policies and terms of Google and Anthropic.</p>
+
+  <h2>3. Photo date</h2>
+  <p>The date stored in a photo is used to fill in the round date. This happens only on your phone. The app does not read or use the location stored in photos.</p>
+
+  <h2>4. Push notifications</h2>
+  <p>We use Firebase Cloud Messaging to send update and announcement notifications. A device registration token is processed by Google/Firebase for delivery and is not used to identify you. You can turn notifications off in your phone settings. If a notification contains a picture, the app downloads it from the address we specify.</p>
+
+  <h2>5. Ads</h2>
+  <ul>
+    <li>Ads keep the app free. In-app ads are provided by <strong>Google AdMob</strong>; the 3-second <strong>start-screen ad</strong> is provided by us. If you choose "Fewer ads", AdMob ads are not shown and only the start-screen ad remains.</li>
+    <li>Google may collect and process the advertising ID, device and app information and IP address to show and measure ads and prevent fraud. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</li>
+    <li>You can reset or delete your advertising ID in your phone settings (Privacy or Google &gt; Ads).</li>
+    <li>For the start-screen ad, our server records only how many times each ad was shown or tapped per day, with the app and phone type (Android/iPhone). No name or device identifier is sent or stored. IP addresses are used briefly to block excessive requests and are not stored.</li>
+  </ul>
+
+  <h2>6. App permissions</h2>
+  <ul>
+    <li><strong>Camera</strong> — take scorecard photos (using your phone's camera app)</li>
+    <li><strong>Photo picker</strong> — only the photos you pick in the system photo picker are given to the app (no access to all photos)</li>
+    <li><strong>Internet</strong> — AI reading and ads</li>
+    <li><strong>Notifications</strong> — show announcements</li>
+  </ul>
+  <p>The app does not request location permission.</p>
+
+  <h2>7. Service providers</h2>
+  <p>We do not sell your information. The following companies process information to provide the service:</p>
+  <ul>
+    <li><strong>Google</strong> — AI reading (Gemini), notifications and statistics (Firebase), ads (AdMob)</li>
+    <li><strong>Anthropic</strong> — AI reading (Claude), only if you entered a Claude key</li>
+    <li><strong>NAVER Cloud</strong> — hosting of our scan and start-screen ad servers in the Republic of Korea (no photos stored)</li>
+  </ul>
+  <p>By using the Basic mode, your photos are transferred to servers in the Republic of Korea and to Google for processing.</p>
+
+  <h2>8. Retention and deletion</h2>
+  <ul>
+    <li>Records, photos, settings and your AI key are only on your phone and are <strong>deleted when you uninstall the app</strong>. You can move records to a new phone with the backup (CSV export).</li>
+    <li>To delete the per-install scan count on our server, contact us below.</li>
+  </ul>
+
+  <h2>9. Children</h2>
+  <p>The app is not directed at children and does not knowingly collect children's personal information.</p>
+
+  <h2>10. Changes</h2>
+  <p>We will post any changes to this policy on this page.</p>
+
+  <h2>11. Contact</h2>
+  <p>KairosD&amp;D Co., Ltd. · vigcorea@gmail.com</p>
+</section>
+
+<hr>
+
+<section id="ja" lang="ja">
+  <h1>AIゴルフスコア プライバシーポリシー</h1>
+  <p class="meta">施行日：2026年10月24日 · アプリ：AIゴルフスコア（Android、com.kairosdnd.golfscore.global） · 運営者：KairosD&amp;D Co., Ltd.（大韓民国）</p>
+
+  <div class="box">
+    <strong>概要</strong>
+    <ul>
+      <li>ラウンド記録（ゴルフ場名・日付・スコア）、同伴者の名前、スコアカードの写真は<strong>お使いのスマートフォン内にのみ</strong>保存されます。</li>
+      <li>無料（ベーシック）でご利用の場合、スコアカードの写真は<strong>当社の読み取りサーバーを経由してGoogleのAIサービスに送信</strong>され、スコアの読み取りにのみ使われます。当社サーバーには<strong>写真や読み取り結果を保存しません</strong>。</li>
+      <li>本アプリは<strong>位置情報を使用しません</strong>。ゴルフ場名はスコアカードから読み取ります。</li>
+      <li>無料版では<strong>Google AdMob広告</strong>が表示され、広告IDなどの端末情報がGoogleに提供されます。</li>
+    </ul>
+  </div>
+
+  <h2>1. 取り扱う情報</h2>
+  <ul>
+    <li><strong>ラウンド記録</strong>（ゴルフ場名、日付、ホール別スコア）、<strong>同伴者の名前</strong>、対戦成績 — スマートフォン内にのみ保存されます。</li>
+    <li><strong>スコアカードの写真</strong> — 結果と見比べられるよう、スマートフォン内にのみ保存されます。設定 &gt; ストレージからいつでも削除できます（記録とスコアは残ります）。</li>
+    <li><strong>自分の名前などの設定</strong>、「広告を減らす」を選んだ場合に入力した<strong>AIキー</strong> — スマートフォン内にのみ保存されます。</li>
+    <li><strong>インストールID</strong> — アプリが作るランダムな番号です（端末固有番号や電話番号ではありません）。無料読み取りの1日あたりの枚数を数えるためだけに使い、当社サーバーにはこの番号と日別の枚数のみを記録します。</li>
+    <li><strong>広告に関する情報</strong> — 広告表示のため、Google AdMobが広告ID、端末・アプリ情報、IPアドレスに基づくおおよその位置などを処理します（5項）。</li>
+    <li><strong>利用統計</strong> — アプリ改善のため、Google Firebaseアナリティクスで開いた画面、読み取りの成否・所要時間・人数、ラウンド保存回数、利用プランなどの利用記録と、アプリインスタンスID・端末の種類・おおよその地域（IPベース）を収集します。<strong>名前・ゴルフ場名・スコア・写真は統計として送信しません。</strong></li>
+  </ul>
+
+  <h2>2. AIによるスコアカード読み取り</h2>
+  <ul>
+    <li><strong>ベーシック（無料）</strong> — スコアカードの写真、ご本人と同伴者の名前（同じ表記で読み取るための補助）、インストールIDが当社の<strong>読み取りサーバー</strong>（NAVER Cloud、大韓民国）に送信されます。サーバーは写真を<strong>Google（Gemini）</strong>に送り、結果のみをアプリに返します。当社サーバーは<strong>写真・名前・結果を保存せず</strong>、インストールIDごとの日別枚数と全体の利用量のみを記録します。当社はGoogleの有料プランを利用しており、Googleはこのデータを自社製品の改善に使用しません。</li>
+    <li><strong>広告を減らす（自分のAIキー）</strong> — 入力したキーで、スマートフォンから<strong>Google（Gemini）</strong>または<strong>Anthropic（Claude）</strong>へ写真と名前を直接送信します。当社サーバーは経由せず、キーはスマートフォン内にのみ保存されます。</li>
+  </ul>
+  <p>AIサービスでのデータ処理は、Google・Anthropic各社のプライバシーポリシーと利用規約に従います。</p>
+
+  <h2>3. 写真の撮影日</h2>
+  <p>写真に記録された撮影日をラウンドの日付の自動入力に使います。この処理はスマートフォン内でのみ行われます。写真の位置情報は読み取りません。</p>
+
+  <h2>4. プッシュ通知</h2>
+  <p>アップデートやお知らせのためにFirebase Cloud Messagingを使用します。配信に必要な端末登録トークンはGoogle/Firebaseで処理され、個人の特定には使用しません。端末の設定で通知をオフにできます。通知に画像が含まれる場合は、当社が指定したアドレスから画像を取得して表示します。</p>
+
+  <h2>5. 広告</h2>
+  <ul>
+    <li>無料で提供するために広告を表示します。アプリ内の広告は<strong>Google AdMob</strong>、起動時3秒間の<strong>スタート広告</strong>は当社が提供します。「広告を減らす」を選ぶとAdMob広告は表示されず、スタート広告のみになります。</li>
+    <li>Googleは広告の表示・測定・不正防止のため、広告ID、端末・アプリ情報、IPアドレスなどを収集・処理することがあります。詳しくは<a href="https://policies.google.com/technologies/partner-sites?hl=ja">Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用</a>をご覧ください。</li>
+    <li>広告IDは端末の設定（プライバシーまたはGoogle &gt; 広告）でリセット・削除できます。</li>
+    <li>スタート広告について、当社サーバーには広告ごと・日ごとの表示・タップ回数と、アプリ・端末の種類（Android／iPhone）のみを記録します。名前や端末識別子は送信・保存しません。IPアドレスは短時間の過剰なリクエストを防ぐためにのみ使い、保存しません。</li>
+  </ul>
+
+  <h2>6. アプリの権限</h2>
+  <ul>
+    <li><strong>カメラ</strong> — スコアカードの撮影（端末のカメラアプリを使用）</li>
+    <li><strong>写真の選択</strong> — システムの写真選択画面で選んだ写真のみアプリに渡されます（すべての写真へのアクセスは行いません）</li>
+    <li><strong>インターネット</strong> — AI読み取り、広告表示</li>
+    <li><strong>通知</strong> — お知らせの表示</li>
+  </ul>
+  <p>本アプリは位置情報の権限を求めません。</p>
+
+  <h2>7. 委託先</h2>
+  <p>当社はお客様の情報を販売しません。サービス提供のため、次の事業者が情報を処理します。</p>
+  <ul>
+    <li><strong>Google</strong> — AI読み取り（Gemini）、通知・統計（Firebase）、広告（AdMob）</li>
+    <li><strong>Anthropic</strong> — AI読み取り（Claude、Claudeキーを入力した場合のみ）</li>
+    <li><strong>NAVER Cloud</strong> — 大韓民国にある当社の読み取りサーバー・スタート広告サーバーの運用（写真の保存なし）</li>
+  </ul>
+  <p>ベーシックをご利用の場合、写真は処理のため大韓民国のサーバーおよびGoogleに送信されます。</p>
+
+  <h2>8. 保存期間と削除</h2>
+  <ul>
+    <li>記録・写真・設定・AIキーはスマートフォン内にのみあるため、<strong>アプリを削除すると一緒に削除</strong>されます。機種変更の際はバックアップ（CSVエクスポート）で記録を移せます。</li>
+    <li>当社サーバー上のインストールIDごとの読み取り枚数の記録の削除をご希望の場合は、下記までご連絡ください。</li>
+  </ul>
+
+  <h2>9. お子様の情報</h2>
+  <p>本アプリはお子様を主な対象としておらず、お子様の個人情報を意図的に収集しません。</p>
+
+  <h2>10. 変更</h2>
+  <p>本ポリシーを変更する場合は、このページでお知らせします。</p>
+
+  <h2>11. お問い合わせ</h2>
+  <p>KairosD&amp;D Co., Ltd. · vigcorea@gmail.com</p>
+</section>
+</body>
+</html>
