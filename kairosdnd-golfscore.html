@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI골프스코어 개인정보처리방침</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Malgun Gothic", "Noto Sans KR", sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; line-height: 1.75;
+    color: #1f2a24; background: #f7f9f6; }
+  @media (prefers-color-scheme: dark) { body { background:#12160f; color:#e6ebe3; } a{color:#8fd39a;} }
+  h1 { font-size: 1.6rem; color: #1B5E3A; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 30px; border-left: 4px solid #1B5E3A; padding-left: 10px; }
+  .meta { color: #6e7771; font-size: .92rem; margin-bottom: 20px; }
+  .box { background: #eaf3e1; border: 1px solid #c5deac; border-radius: 12px; padding: 14px 16px; }
+  @media (prefers-color-scheme: dark){ .box{ background:#1c2a17; border-color:#33502a; } }
+  code { background: rgba(120,120,120,.15); padding: 1px 6px; border-radius: 5px; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+  <h1>AI골프스코어 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026년 10월 26일 (앱 2.53부터) · 앱: AI골프스코어 (Android) · 운영자: 주식회사 카이로스디앤디</p>
+
+  <div class="box">
+    <strong>핵심 요약</strong> — AI골프스코어는 <strong>주식회사 카이로스디앤디</strong>(이하 "회사")가 개발·운영합니다.
+    <ul>
+      <li>라운드 기록(골프장·날짜·점수)·동반자 이름·스코어 사진은 <strong>사용자의 휴대폰 안에만</strong> 저장됩니다.</li>
+      <li>기본(무료) 이용 시 스코어 사진은 <strong>회사의 인식 서버를 거쳐 Google의 AI 서비스로 전송</strong>되어 점수를 읽는 데만 쓰이며,
+        회사 서버에 <strong>사진과 인식 결과를 저장하지 않습니다.</strong></li>
+      <li>무료 이용 시 앱에 <strong>Google AdMob 광고</strong>가 표시되며, 이를 위해 광고 ID 등 기기 정보가 Google에 제공됩니다.</li>
+    </ul>
+  </div>
+
+  <h2>1. 처리하는 정보</h2>
+  <ul>
+    <li><strong>라운드 기록</strong>(골프장명, 날짜·시각, 홀별 점수), <strong>동반자 이름</strong>, 승·무·패 기록 — 휴대폰에만 저장됩니다.</li>
+    <li><strong>스코어 사진</strong> — 인식 결과를 나중에 대조할 수 있도록 휴대폰에만 저장되며, 설정 &gt; 저장 공간에서 언제든 지울 수 있습니다(기록과 점수는 남습니다).</li>
+    <li><strong>본인 이름 등 설정값</strong>과, '광고 줄이기'를 고른 경우 사용자가 등록한 <strong>AI 키</strong> — 휴대폰에만 저장됩니다.</li>
+    <li><strong>설치 식별자</strong> — 앱이 만드는 무작위 번호입니다(기기 고유번호·전화번호가 아닙니다).
+      무료 인식의 하루 이용 장수를 세는 데만 쓰이며, 회사 서버에 이 번호와 날짜별 이용 장수만 기록됩니다.</li>
+    <li><strong>광고 관련 정보</strong> — 광고 표시를 위해 Google AdMob이 광고 ID, 기기·앱 정보, 대략적인 위치(IP 기반) 등을 처리합니다(6항).</li>
+    <li><strong>앱 사용 통계</strong> — 앱을 개선하기 위해 Google Firebase 애널리틱스로 어떤 화면을 열었는지, 스코어카드 인식의 성공 여부·걸린 시간·인식된 인원수,
+      라운드 저장 횟수, 이용 방식 같은 <strong>사용 기록</strong>과 앱 설치 식별 번호·기기 종류·대략적인 지역(IP 기반)을 수집합니다.
+      <strong>이름·골프장·점수·사진은 통계로 보내지 않습니다.</strong></li>
+  </ul>
+
+  <h2>2. AI 스코어카드 인식</h2>
+  <p>설정의 <strong>이용 방식</strong>에 따라 스코어 사진이 전송되는 경로가 다릅니다.</p>
+  <ul>
+    <li><strong>기본(무료)</strong> — 스코어 사진, 본인·동반자 이름(사진 속 이름을 같은 철자로 읽도록 돕는 용도), 설치 식별자가
+      회사의 <strong>인식 서버</strong>(네이버 클라우드, 대한민국)로 전송되고, 서버가 사진을 <strong>Google(Gemini)</strong>의 AI 서비스로 보내
+      점수를 읽은 뒤 결과만 앱으로 돌려줍니다. 회사 서버는 <strong>사진·이름·인식 결과를 저장하지 않으며</strong>,
+      설치 식별자별 날짜·이용 장수와 전체 이용 통계(장수, 사용량)만 기록합니다. 회사는 유료 등급으로 Google AI를 이용하며,
+      Google은 이 데이터를 자사 제품 개선에 쓰지 않습니다.</li>
+    <li><strong>광고 줄이기(내 AI 키)</strong> — 사용자가 직접 등록한 키로 휴대폰이 <strong>Google(Gemini)</strong> 또는
+      <strong>Anthropic(Claude)</strong>에 사진과 이름을 직접 보내 인식합니다. 이 경우 회사 서버를 거치지 않으며, 키는 사용자 휴대폰에만 저장됩니다.</li>
+  </ul>
+  <p>AI 서비스에서의 데이터 처리는 각 회사(Google, Anthropic)의 개인정보처리방침과 이용약관을 따릅니다.</p>
+
+  <h2>3. 위치 정보 (골프장 자동 입력)</h2>
+  <ul>
+    <li><strong>수집 시점</strong>: 앱의 [촬영] 버튼으로 스코어카드를 찍을 때 휴대폰의 현재 위치 1회,
+      또는 갤러리에서 고른 사진 파일에 기록된 촬영 위치(기록된 경우에만)</li>
+    <li><strong>이용 목적</strong>: 촬영한 곳 근처의 골프장 이름을 자동으로 입력</li>
+    <li><strong>처리 방법</strong>: 위치(위도·경도)를 <strong>카카오 로컬 API</strong>(카카오㈜)로 보내 반경 2km 안의 골프장을 검색합니다.
+      위치는 검색에만 쓰이며 앱과 회사 어디에도 저장하지 않습니다. 기록에는 골프장 이름만 남습니다.</li>
+    <li><strong>거부 권리</strong>: 위치·사진 위치 권한을 허용하지 않아도 앱의 모든 기능을 사용할 수 있습니다. 이 경우 골프장 이름은 직접 입력합니다.</li>
+    <li><strong>촬영 시각</strong>: 사진에 기록된 촬영 시각은 라운드 시각 자동 입력에 쓰이며 휴대폰 안에서만 처리됩니다.</li>
+  </ul>
+
+  <h2>4. 푸시 알림·사용 통계</h2>
+  <p>업데이트·공지 안내를 위해 Firebase Cloud Messaging(FCM)을 사용합니다. 알림 전송에 필요한 기기 등록 토큰이
+    Google/Firebase를 통해 처리되며, 특정 개인을 식별하는 용도로 쓰지 않습니다. 기기 설정에서 알림을 끄면 수신되지 않습니다.
+    알림에 그림이 들어 있으면 그 그림을 회사가 지정한 주소에서 받아 표시합니다.</p>
+  <p>앱 사용 통계(1항)는 Google Firebase 애널리틱스로 처리되며, 처리 방식은
+    <a href="https://firebase.google.com/support/privacy?hl=ko">Firebase 개인정보 보호 안내</a>를 따릅니다.
+    회사는 이 통계를 앱 개선에만 쓰며 광고 맞춤이나 제3자 판매에 쓰지 않습니다.</p>
+
+  <h2>5. 앱 권한</h2>
+  <ul>
+    <li><strong>카메라</strong> — 스코어 사진 촬영 (기기의 기본 카메라 앱 사용)</li>
+    <li><strong>위치</strong> — 촬영할 때 근처 골프장 찾기 (앱 사용 중에만, 백그라운드 위치 사용 안 함)</li>
+    <li><strong>사진 선택 및 사진 위치</strong> — 사진은 시스템 사진 선택 화면에서 사용자가 고른 것만 앱에 전달됩니다(모든 사진을 읽는 권한은 사용하지 않습니다).
+      고른 사진의 촬영 위치를 읽기 위해 사진 위치 권한을 사용합니다.</li>
+    <li><strong>인터넷</strong> — AI 인식, 골프장 검색, 광고 표시</li>
+    <li><strong>광고 ID</strong> — 광고 표시(6항)</li>
+    <li><strong>알림</strong> — 공지 알림 표시</li>
+  </ul>
+  <p>각 권한은 해당 기능을 사용할 때만 쓰이며, 거부해도 다른 기능은 정상 이용할 수 있습니다.</p>
+
+  <h2>6. 광고</h2>
+  <ul>
+    <li>무료로 제공하기 위해 앱에 광고가 표시됩니다. 화면 안의 광고는 <strong>Google AdMob</strong>이,
+      앱을 켤 때 3초 동안 나오는 <strong>시작 광고</strong>는 회사가 직접 제공합니다.
+      '광고 줄이기(내 AI 키)'를 고르면 AdMob 광고는 나오지 않고 시작 광고만 표시됩니다.</li>
+    <li>Google은 광고 표시·측정·부정 방지를 위해 <strong>광고 ID</strong>, 기기·앱 정보, IP 주소 등을 수집·처리할 수 있습니다.
+      처리 방식은 <a href="https://policies.google.com/technologies/partner-sites?hl=ko">Google의 파트너 사이트·앱 데이터 사용 안내</a>를 따릅니다.</li>
+    <li>광고 ID는 휴대폰 <strong>설정 &gt; 개인정보 보호(또는 Google) &gt; 광고</strong>에서 재설정하거나 삭제해 맞춤 광고를 끌 수 있습니다.</li>
+    <li>회사는 광고를 위해 라운드 기록·이름·사진을 광고 회사에 제공하지 않습니다.</li>
+    <li><strong>시작 광고(회사 자체 광고)</strong> — 앱이 회사 서버에서 광고 이미지와 링크를 미리 받아 두었다가 보여 줍니다.
+      광고가 보였거나 눌렸을 때 광고별·날짜별 횟수와 앱 종류·휴대폰 종류(안드로이드/아이폰)만 회사 서버에 기록하며,
+      이름·기기 식별자 등 개인을 알아볼 수 있는 정보는 보내거나 저장하지 않습니다.
+      접속 IP 주소는 짧은 시간 동안의 과도한 요청을 막는 데에만 쓰고 저장하지 않습니다.</li>
+  </ul>
+
+  <h2>7. 제3자 제공 및 처리 위탁</h2>
+  <p>회사는 사용자 정보를 판매하지 않습니다. 서비스 제공을 위해 다음 업체가 정보를 처리합니다.</p>
+  <ul>
+    <li><strong>Google</strong> — 스코어카드 AI 인식(Gemini, 2항), 공지 알림·사용 통계(Firebase, 4항), 광고(AdMob, 6항)</li>
+    <li><strong>Anthropic</strong> — 스코어카드 AI 인식(Claude, '광고 줄이기'에서 클로드 키를 등록한 경우만, 2항)</li>
+    <li><strong>카카오㈜</strong> — 위치로 골프장 검색 (3항)</li>
+    <li><strong>네이버 클라우드</strong> — 인식 서버·시작 광고 서버 운영(사진 저장 없음)</li>
+  </ul>
+
+  <h2>8. 데이터 보관 및 삭제</h2>
+  <ul>
+    <li>라운드 기록·사진·설정·AI 키는 휴대폰에만 있으므로 <strong>앱을 삭제하면 함께 삭제</strong>됩니다.
+      사진만 지우려면 설정 &gt; 저장 공간 &gt; '저장해둔 사진 지우기'를 쓰세요.
+      기기를 바꿀 때는 앱의 백업(CSV 파일 내보내기)으로 기록을 옮길 수 있습니다.</li>
+    <li>회사 서버의 설치 식별자별 이용 장수 기록은 무료 장수 확인에만 쓰이며, 삭제를 원하시면 아래 문의처로 요청해 주세요.</li>
+  </ul>
+
+  <h2>9. 아동의 개인정보</h2>
+  <p>본 앱은 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+  <h2>10. 변경 고지</h2>
+  <p>본 방침이 변경될 경우 이 페이지를 통해 공지합니다.</p>
+  <ul>
+    <li>2026-10-26: 앱 운영자가 주식회사 카이로스디앤디로 바뀜. 기본(무료) 인식 서버, Google AdMob 광고·회사 시작 광고, 설치 식별자, 사진 지우기 기능, Firebase 사용 통계 반영 (앱 2.53)</li>
+    <li>이전 내용(개인 운영 시절): <a href="./">이전 방침 보기</a></li>
+  </ul>
+
+  <h2>11. 문의처</h2>
+  <p>운영자: 주식회사 카이로스디앤디<br>개인정보 관련 문의: vigcorea@gmail.com</p>
+</body>
+</html>
